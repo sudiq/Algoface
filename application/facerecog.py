@@ -1,7 +1,4 @@
 import numpy as np
-import os
-from imageio import imread
-import matplotlib.pyplot as plt
 from skimage.transform import resize
 from scipy.spatial import distance
 from keras.backend import set_session
@@ -87,10 +84,5 @@ def calc_dist(*pair):
       data[i] = embs
     return distance.euclidean(data[0], data[1])
 
-def calc_dist_plot(pair):
-    print(calc_dist(pair))
-    plt.subplot(1, 2, 1)
-    plt.imshow(imread(pair[0]))
-    plt.subplot(1, 2, 2)
-    plt.imshow(imread(pair[1]))
+
     
