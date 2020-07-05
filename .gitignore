@@ -1,7 +1,7 @@
 #Bash Files
 start.sh
 
-*/model/
+application/model/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -9,7 +9,7 @@ __pycache__/
 *$py.class
 
 # C extensions
-*.so
+*.sohttps://github.com/sudiq/Algoface.git
 
 # Distribution / packaging
 .Python
